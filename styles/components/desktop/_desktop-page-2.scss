@@ -1,1 +1,52 @@
-@media screen and (min-width:$desktop-width){}
+@media screen and (min-width:$desktop-width) {
+    .page-2 {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+
+        .picture {
+            background-color: $first-page-footer-bc;
+            display: flex;
+            justify-content: end;
+
+            div {
+                width: 350.2px;
+                height: 522.8px;
+                background-color: $second-page-pictur-bc;
+
+
+            }
+        }
+
+        .description {
+            width: 660px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 48px;
+            margin-top: 39px;
+
+            .w-261 {
+                width: 261px;
+                margin-right: 34px;
+            }
+
+            .w-300 {
+                width: 300px;
+            }
+
+            .w-543 {
+                width: 543px;
+
+            }
+
+
+        }
+
+    }
+
+
+
+
+
+
+
+}

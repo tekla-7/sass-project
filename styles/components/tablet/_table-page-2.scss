@@ -1,1 +1,41 @@
-@media screen and (min-width: $tablet-width-min) and (max-width: $tablet-width-max){}
+@media screen and (min-width: $tablet-width-min) and (max-width: $tablet-width-max) {
+    .description {
+        width: 620px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 48px;
+        margin-top: 50px;
+
+        .heading {
+            margin-bottom: 50px;
+        }
+
+        .important-text {
+            margin-bottom: 42px;
+        }
+
+        .w-261 {
+            width: 261px;
+            margin-right: 34px;
+            margin-bottom: 20px;
+        }
+
+        .w-300 {
+            width: 300px;
+            margin-bottom: 20px;
+        }
+
+        .w-543 {
+            width: 600px;
+
+        }
+
+
+    }
+
+
+
+
+
+
+}

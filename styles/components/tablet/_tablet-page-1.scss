@@ -5,7 +5,6 @@
 
         .page-1-head {
             padding-left: 10%;
-            height: 433px;
 
             .banner {
                 height: 65%;
@@ -29,11 +28,9 @@
         .page-1-footer {
             display: grid;
             grid-template-columns: 1fr 9fr;
-            height: 62px;
-
             .buttons {
-                margin-left: 60%;
-
+                margin-left: 300px;
+                height: 62px;
                 img {
                     width: 14px;
                     height: 23px;
@@ -46,9 +43,8 @@
                 }
 
                 div {
-                    width: 100px;
+                    width: 40px;
                     //  opacity: 0.20;
-                    height: 65px;
                     border-left: 1px solid $banner-text-color;
                     border-right: 1px solid $banner-text-color;
                 }

@@ -2,69 +2,72 @@
 //     background-color: $first-page-bc;
 // }
 @media screen and (min-width:$desktop-width) {
-    .page-1-head {
-        padding-left: 11.7%;
-        height: 433px;
+    .container {
 
-        .banner {
-            height: 65%;
-            width: 300px;
+        .page-1-head {
+            padding-left: 7.4%;
 
-            .meniu {
+            .banner {
+                height: 65%;
+                width: 280px;
 
-                position: absolute;
-                left: 100%;
-                top: 0px;
-            }
+                .meniu {
 
-            .banner-child-6 {
-                right: 0;
-                bottom: 0;
-            }
-        }
+                    position: absolute;
+                    left: 100%;
+                    top: 0px;
+                }
 
-    }
-
-    .page-1-footer {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        height: 62px;
-
-        .buttons {
-            margin-left: 60%;
-
-            img {
-                width: 14px;
-                height: 23px;
-
-                &:hover {
-
-                    cursor: pointer;
-                    opacity: 0.5;
+                .banner-child-6 {
+                    right: 0;
+                    bottom: 0;
                 }
             }
 
-            div {
-                width: 100px;
-                //  opacity: 0.20;
-                height: 65px;
-                border-left: 1px solid $banner-text-color;
-                border-right: 1px solid $banner-text-color;
+        }
+
+        .page-1-footer {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            height: 62px;
+
+            .buttons {
+                // margin-left: 60%;
+
+
+                img {
+                    width: 14px;
+                    height: 23px;
+
+                    &:hover {
+
+                        cursor: pointer;
+                        opacity: 0.5;
+                    }
+                }
+
+                div {
+                    width: 100px;
+                    //  opacity: 0.20;
+                    border-left: 1px solid $banner-text-color;
+                    border-right: 1px solid $banner-text-color;
+                }
             }
+
+            .DBDBDB {
+                background-color: #DBDBDB;
+            }
+
+            .navigation {
+                background-color: $footer-bc-color;
+
+            }
+
         }
 
-        .DBDBDB {
-            background-color: #DBDBDB;
-        }
 
-        .navigation {
-            background-color: $footer-bc-color;
-        }
+
+
 
     }
-
-
-
-
-
 }

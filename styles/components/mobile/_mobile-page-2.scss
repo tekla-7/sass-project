@@ -1,0 +1,44 @@
+@media screen and (max-width:$mobile-width) {
+    .picture {
+        position: none;
+    }
+
+    .description {
+        width: 272px;
+        margin-top: 35px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+
+        .heading {
+            margin-bottom: 50px;
+        }
+
+        .important-text {
+            margin-bottom: 42px;
+        }
+
+        .w-261 {
+            margin-bottom: 20px;
+           
+        }
+
+        .w-300 {
+
+            margin-bottom: 20px;
+            
+        }
+
+        .w-543 {
+            
+
+        }
+
+
+    }
+
+
+
+
+
+}

@@ -179,49 +179,44 @@ table {
 }
 
 @media screen and (min-width: 791px) {
-  .page-1-head {
-    padding-left: 11.7%;
-    height: 433px;
+  .container .page-1-head {
+    padding-left: 7.4%;
   }
-  .page-1-head .banner {
+  .container .page-1-head .banner {
     height: 65%;
-    width: 300px;
+    width: 280px;
   }
-  .page-1-head .banner .meniu {
+  .container .page-1-head .banner .meniu {
     position: absolute;
     left: 100%;
     top: 0px;
   }
-  .page-1-head .banner .banner-child-6 {
+  .container .page-1-head .banner .banner-child-6 {
     right: 0;
     bottom: 0;
   }
-  .page-1-footer {
+  .container .page-1-footer {
     display: grid;
     grid-template-columns: 1fr 2fr;
     height: 62px;
   }
-  .page-1-footer .buttons {
-    margin-left: 60%;
-  }
-  .page-1-footer .buttons img {
+  .container .page-1-footer .buttons img {
     width: 14px;
     height: 23px;
   }
-  .page-1-footer .buttons img:hover {
+  .container .page-1-footer .buttons img:hover {
     cursor: pointer;
     opacity: 0.5;
   }
-  .page-1-footer .buttons div {
+  .container .page-1-footer .buttons div {
     width: 100px;
-    height: 65px;
     border-left: 1px solid #FFFFFF;
     border-right: 1px solid #FFFFFF;
   }
-  .page-1-footer .DBDBDB {
+  .container .page-1-footer .DBDBDB {
     background-color: #DBDBDB;
   }
-  .page-1-footer .navigation {
+  .container .page-1-footer .navigation {
     background-color: #111111;
   }
 }
@@ -231,7 +226,6 @@ table {
   }
   .container .page-1-head {
     padding-left: 10%;
-    height: 433px;
   }
   .container .page-1-head .banner {
     height: 65%;
@@ -249,10 +243,10 @@ table {
   .container .page-1-footer {
     display: grid;
     grid-template-columns: 1fr 9fr;
-    height: 62px;
   }
   .container .page-1-footer .buttons {
-    margin-left: 60%;
+    margin-left: 300px;
+    height: 62px;
   }
   .container .page-1-footer .buttons img {
     width: 14px;
@@ -263,8 +257,7 @@ table {
     opacity: 0.5;
   }
   .container .page-1-footer .buttons div {
-    width: 100px;
-    height: 65px;
+    width: 40px;
     border-left: 1px solid #FFFFFF;
     border-right: 1px solid #FFFFFF;
   }
@@ -303,6 +296,116 @@ table {
   }
   .container .page-1-footer img {
     display: none;
+  }
+}
+.page-2 .description {
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+}
+.page-2 .description .heading {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 36px;
+}
+.page-2 .description .important-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-decoration: underline;
+  text-decoration-color: #222222;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 8px;
+}
+.page-2 .description .text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #222222;
+}
+
+@media screen and (min-width: 791px) {
+  .page-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  .page-2 .picture {
+    background-color: #DBDBDB;
+    display: flex;
+    justify-content: end;
+  }
+  .page-2 .picture div {
+    width: 350.2px;
+    height: 522.8px;
+    background-color: #898989;
+  }
+  .page-2 .description {
+    width: 660px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 48px;
+    margin-top: 39px;
+  }
+  .page-2 .description .w-261 {
+    width: 261px;
+    margin-right: 34px;
+  }
+  .page-2 .description .w-300 {
+    width: 300px;
+  }
+  .page-2 .description .w-543 {
+    width: 543px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 790px) {
+  .description {
+    width: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 48px;
+    margin-top: 50px;
+  }
+  .description .heading {
+    margin-bottom: 50px;
+  }
+  .description .important-text {
+    margin-bottom: 42px;
+  }
+  .description .w-261 {
+    width: 261px;
+    margin-right: 34px;
+    margin-bottom: 20px;
+  }
+  .description .w-300 {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .description .w-543 {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .picture {
+    position: none;
+  }
+  .description {
+    width: 272px;
+    margin-top: 35px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  .description .heading {
+    margin-bottom: 50px;
+  }
+  .description .important-text {
+    margin-bottom: 42px;
+  }
+  .description .w-261 {
+    margin-bottom: 20px;
+  }
+  .description .w-300 {
+    margin-bottom: 20px;
   }
 }
 
