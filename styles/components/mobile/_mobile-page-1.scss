@@ -1,0 +1,47 @@
+@media screen and (max-width:$mobile-width) {
+    .container {
+        width: 320px;
+
+        .page-1-head {
+            width: 320px;
+            height: 425px;
+
+            .banner {
+                height: 69%;
+                width: 63%;
+                margin-left: 7%;
+
+                .meniu {
+                    position: absolute;
+                    left: 77%;
+                    top: 0px;
+                }
+
+                .banner-child-6 {
+                    left: 25%;
+                    bottom: 0;
+                }
+            }
+        }
+
+        .page-1-footer {
+            height: 65px;
+
+            background-color: $footer-bc-color;
+
+            img {
+                display: none;
+            }
+        }
+
+
+
+
+
+    }
+
+
+
+
+
+}

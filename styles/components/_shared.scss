@@ -1,0 +1,128 @@
+ $text-margin-bottom: 10px;
+ $head-font-family: 'Montserrat', sans-serif;
+ $medium-font-size: 26px;
+ $small-font-size: 18px;
+
+ .page-1 {
+
+
+     .page-1-head {
+         background-color: $first-page-bc;
+         .banner {
+            //  height: 65%;
+             background: $banner-bc;
+             padding: 32px 35px 100px 35px;
+             color: $banner-text-color;
+             position: relative;
+             font-family: $head-font-family;
+
+             .meniu {
+                 width: 63.2px;
+                 height: 59.1px;
+                 background-color: $footer-bc-color;
+
+             }
+
+             .banner-child-1 {
+                 font-size: $small-font-size;
+                 font-weight: bold;
+                 margin-bottom: 80px;
+
+                 .exhibition {
+                     position: absolute;
+                     left: 75px;
+                     top: 38px;
+
+                 }
+
+                 .E-element {
+                     position: absolute;
+                     border-color: $banner-text-color;
+                     border-width: 3px;
+                     border-style: solid;
+                     background: rgba(172, 172, 172, 0);
+                     font-size: 28px;
+                     padding: 4px 6px 4px 6px;
+                     margin-right: 5px;
+
+                 }
+
+             }
+
+             .banner-child-2 {
+                 width: 100.3px;
+                 height: 19.5px;
+                 background-color: $footer-bc-color;
+                 font-size: 10px;
+                 line-height: $small-font-size;
+                 padding-left: 4%;
+                 margin-bottom: $text-margin-bottom;
+
+                 .john-doe {
+                    
+                     font-size: $medium-font-size;
+                     font-weight: bold;
+                     line-height: $medium-font-size;
+
+                 }
+
+
+             }
+
+
+             .banner-child-3 {
+                width:70%;
+                 font-size: $medium-font-size;
+                 font-weight: bold;
+                 line-height: $medium-font-size;
+                 margin-bottom: $text-margin-bottom;
+             }
+
+             .under-line {
+
+                
+                 height: 1px;
+                 opacity: 0.30;
+                 background-color: $banner-text-color;
+                 margin-bottom: $text-margin-bottom;
+             }
+
+             .banner-child-4 {
+                width: 70%;
+                 font-family: "Open Sans";
+                 font-size: 16px;
+                 font-weight: 300;
+                 line-height: 20px;
+                 margin-bottom: $text-margin-bottom;
+
+
+             }
+
+             .banner-child-5 {
+                 font-size: $small-font-size;
+                 margin-bottom: $text-margin-bottom;
+                 img{
+                    margin-right: $text-margin-bottom;
+                 }
+
+             }
+
+             .banner-child-6 {
+                 position: absolute;
+                
+
+                 div {
+                     width: 45.1px;
+                     height: 44.5px;
+                     border-color: #ffffff;
+                     border-width: 1px;
+                     border-style: solid;
+
+
+                 }
+             }
+         }
+     }
+
+
+ }

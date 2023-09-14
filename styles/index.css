@@ -1,0 +1,309 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row-center {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.flex-column-center {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-row-end {
+  display: flex;
+  align-items: end;
+}
+
+.page-1 .page-1-head {
+  background-color: #EEEEEE;
+}
+.page-1 .page-1-head .banner {
+  background: #ED1C24;
+  padding: 32px 35px 100px 35px;
+  color: #FFFFFF;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+.page-1 .page-1-head .banner .meniu {
+  width: 63.2px;
+  height: 59.1px;
+  background-color: #111111;
+}
+.page-1 .page-1-head .banner .banner-child-1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+.page-1 .page-1-head .banner .banner-child-1 .exhibition {
+  position: absolute;
+  left: 75px;
+  top: 38px;
+}
+.page-1 .page-1-head .banner .banner-child-1 .E-element {
+  position: absolute;
+  border-color: #FFFFFF;
+  border-width: 3px;
+  border-style: solid;
+  background: rgba(172, 172, 172, 0);
+  font-size: 28px;
+  padding: 4px 6px 4px 6px;
+  margin-right: 5px;
+}
+.page-1 .page-1-head .banner .banner-child-2 {
+  width: 100.3px;
+  height: 19.5px;
+  background-color: #111111;
+  font-size: 10px;
+  line-height: 18px;
+  padding-left: 4%;
+  margin-bottom: 10px;
+}
+.page-1 .page-1-head .banner .banner-child-2 .john-doe {
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 26px;
+}
+.page-1 .page-1-head .banner .banner-child-3 {
+  width: 70%;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+.page-1 .page-1-head .banner .under-line {
+  height: 1px;
+  opacity: 0.3;
+  background-color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.page-1 .page-1-head .banner .banner-child-4 {
+  width: 70%;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.page-1 .page-1-head .banner .banner-child-5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.page-1 .page-1-head .banner .banner-child-5 img {
+  margin-right: 10px;
+}
+.page-1 .page-1-head .banner .banner-child-6 {
+  position: absolute;
+}
+.page-1 .page-1-head .banner .banner-child-6 div {
+  width: 45.1px;
+  height: 44.5px;
+  border-color: #ffffff;
+  border-width: 1px;
+  border-style: solid;
+}
+
+@media screen and (min-width: 791px) {
+  .page-1-head {
+    padding-left: 11.7%;
+    height: 433px;
+  }
+  .page-1-head .banner {
+    height: 65%;
+    width: 300px;
+  }
+  .page-1-head .banner .meniu {
+    position: absolute;
+    left: 100%;
+    top: 0px;
+  }
+  .page-1-head .banner .banner-child-6 {
+    right: 0;
+    bottom: 0;
+  }
+  .page-1-footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 62px;
+  }
+  .page-1-footer .buttons {
+    margin-left: 60%;
+  }
+  .page-1-footer .buttons img {
+    width: 14px;
+    height: 23px;
+  }
+  .page-1-footer .buttons img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  .page-1-footer .buttons div {
+    width: 100px;
+    height: 65px;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+  }
+  .page-1-footer .DBDBDB {
+    background-color: #DBDBDB;
+  }
+  .page-1-footer .navigation {
+    background-color: #111111;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 790px) {
+  .container {
+    width: 790px;
+  }
+  .container .page-1-head {
+    padding-left: 10%;
+    height: 433px;
+  }
+  .container .page-1-head .banner {
+    height: 65%;
+    width: 300px;
+  }
+  .container .page-1-head .banner .meniu {
+    position: absolute;
+    left: 100%;
+    top: 0px;
+  }
+  .container .page-1-head .banner .banner-child-6 {
+    right: 0;
+    bottom: 0;
+  }
+  .container .page-1-footer {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    height: 62px;
+  }
+  .container .page-1-footer .buttons {
+    margin-left: 60%;
+  }
+  .container .page-1-footer .buttons img {
+    width: 14px;
+    height: 23px;
+  }
+  .container .page-1-footer .buttons img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  .container .page-1-footer .buttons div {
+    width: 100px;
+    height: 65px;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+  }
+  .container .page-1-footer .DBDBDB {
+    background-color: #DBDBDB;
+  }
+  .container .page-1-footer .navigation {
+    background-color: #111111;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    width: 320px;
+  }
+  .container .page-1-head {
+    width: 320px;
+    height: 425px;
+  }
+  .container .page-1-head .banner {
+    height: 69%;
+    width: 63%;
+    margin-left: 7%;
+  }
+  .container .page-1-head .banner .meniu {
+    position: absolute;
+    left: 77%;
+    top: 0px;
+  }
+  .container .page-1-head .banner .banner-child-6 {
+    left: 25%;
+    bottom: 0;
+  }
+  .container .page-1-footer {
+    height: 65px;
+    background-color: #111111;
+  }
+  .container .page-1-footer img {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
