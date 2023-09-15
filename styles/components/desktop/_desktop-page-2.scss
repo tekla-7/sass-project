@@ -1,7 +1,7 @@
 @media screen and (min-width:$desktop-width) {
     .page-2 {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 2fr 3fr;
 
         .picture {
             background-color: $first-page-footer-bc;
@@ -19,7 +19,7 @@
 
         .description {
 
-            padding: 5% 15% 0% 5%;
+            padding: 5% 9% 0% 5%;
 
             .heading {
                 padding-bottom: 5%;
