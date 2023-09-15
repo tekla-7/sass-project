@@ -1,0 +1,15 @@
+@media screen and (min-width:$desktop-width){
+    .page-5{
+        height: 164px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .page-5-text{
+            display: flex;
+        flex-direction: row;
+        .page-5-child-1{
+            margin-right: 20vw;
+        }
+        }
+    }
+}

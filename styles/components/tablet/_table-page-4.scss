@@ -1,8 +1,8 @@
 @media screen and (min-width: $tablet-width-min) and (max-width: $tablet-width-max) {
     .page-4 {
-
+height: 440px;
         iframe {
-            height: 440px;
+            height: 100%;
         }
 
         .page-4-child {
@@ -11,7 +11,7 @@
 
             .announcement {
                 width: 350px;
-                height: 440px;
+                height: 100%;
             }
 
         }

@@ -1,9 +1,10 @@
 @media screen and (max-width:$mobile-width) {
 
     .page-4 {
+        height: 403px;
 
         iframe {
-            height: 403px;
+            height: 100%;
         }
 
         .page-4-child {
@@ -13,7 +14,7 @@
 
                 .announcement {
                     width: 271px;
-                    height: 403px;
+                    height: 100%;
                 }
             }
         }

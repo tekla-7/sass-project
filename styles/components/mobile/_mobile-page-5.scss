@@ -1,0 +1,11 @@
+@media screen and (max-width:$mobile-width){
+    .page-5{
+        height: 168px;
+        display: flex;
+        flex-direction: row;
+        padding-top: 10%;
+        .page-5-child-1{
+           margin-bottom: 20%;
+        }
+    }
+}

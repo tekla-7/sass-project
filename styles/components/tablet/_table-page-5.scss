@@ -1,0 +1,12 @@
+@media screen and (min-width: $tablet-width-min) and (max-width: $tablet-width-max){
+    
+        .page-5{
+            height: 164px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            .page-5-child-1{
+               margin-bottom: 15%;
+            }
+        }
+    }

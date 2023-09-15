@@ -1,8 +1,8 @@
 @media screen and (min-width:$desktop-width) {
     .page-4 {
-        
+        height: 440px;
         iframe {
-            height: 440px;
+            height: 100%;
         }
 
         .page-4-child {
@@ -16,7 +16,7 @@
 
                 .announcement {
                     width: 350px;
-                    height: 440px;
+                    height: 100%;
                 }
             }
         }
