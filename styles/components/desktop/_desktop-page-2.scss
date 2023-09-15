@@ -7,10 +7,10 @@
             background-color: $first-page-footer-bc;
             display: flex;
             justify-content: end;
+            height: 425px;
 
             div {
-                width: 350.2px;
-                height: 522.8px;
+                width: 350px;
                 background-color: $second-page-pictur-bc;
 
 
@@ -18,24 +18,27 @@
         }
 
         .description {
-            width: 660px;
-            display: flex;
-            flex-wrap: wrap;
-            margin-left: 48px;
-            margin-top: 39px;
 
-            .w-261 {
-                width: 261px;
-                margin-right: 34px;
+            padding: 5% 15% 0% 5%;
+
+            .heading {
+                padding-bottom: 5%;
             }
 
-            .w-300 {
-                width: 300px;
+            .important-text {
+                padding-bottom: 4%;
             }
 
-            .w-543 {
-                width: 543px;
+            .text-gallery {
+                display: grid;
+                grid-template-columns: auto auto;
+                column-gap: 4%;
+                padding-bottom: 4%;
 
+            }
+
+            .mr-30 {
+                padding-right: 13%;
             }
 
 

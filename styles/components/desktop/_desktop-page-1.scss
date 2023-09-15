@@ -5,25 +5,32 @@
     .container {
 
         .page-1-head {
-            padding-left: 7.4%;
 
-            .banner {
-                height: 65%;
-                width: 280px;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
 
-                .meniu {
+            .banner-position {
+                display: flex;
+                justify-content: end;
 
-                    position: absolute;
-                    left: 100%;
-                    top: 0px;
-                }
+                .banner {
 
-                .banner-child-6 {
-                    right: 0;
-                    bottom: 0;
+                    width: 350px;
+                    height: 425px;
+
+                    .meniu {
+
+                        position: absolute;
+                        left: 100%;
+                        top: 0px;
+                    }
+
+                    .banner-child-6 {
+                        right: 0;
+                        bottom: 0;
+                    }
                 }
             }
-
         }
 
         .page-1-footer {
@@ -32,7 +39,7 @@
             height: 62px;
 
             .buttons {
-                // margin-left: 60%;
+            
 
 
                 img {
@@ -48,7 +55,7 @@
 
                 div {
                     width: 100px;
-                    //  opacity: 0.20;
+                   
                     border-left: 1px solid $banner-text-color;
                     border-right: 1px solid $banner-text-color;
                 }
@@ -56,6 +63,7 @@
 
             .DBDBDB {
                 background-color: #DBDBDB;
+                min-width: 350px;
             }
 
             .navigation {

@@ -1,15 +1,16 @@
 @media screen and (min-width: $tablet-width-min) and (max-width: $tablet-width-max) {
 
     .container {
-        width: 790px;
+    
 
         .page-1-head {
             padding-left: 10%;
-
+            display: grid;
+            grid-template-columns: 1fr 10fr;
             .banner {
-                height: 65%;
-                width: 300px;
-
+                height: 425px;
+                width: 350px;
+                grid-column-start: 1;
                 .meniu {
 
                     position: absolute;
