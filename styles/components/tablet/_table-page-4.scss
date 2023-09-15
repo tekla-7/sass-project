@@ -1,0 +1,21 @@
+@media screen and (min-width: $tablet-width-min) and (max-width: $tablet-width-max) {
+    .page-4 {
+
+        iframe {
+            height: 440px;
+        }
+
+        .page-4-child {
+
+            padding-left: 10%;
+
+            .announcement {
+                width: 350px;
+                height: 440px;
+            }
+
+        }
+
+
+    }
+}

@@ -232,13 +232,10 @@ table {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .container .page-1-head {
     padding-left: 10%;
-    display: grid;
-    grid-template-columns: 1fr 10fr;
   }
   .container .page-1-head .banner {
     height: 425px;
     width: 350px;
-    grid-column-start: 1;
   }
   .container .page-1-head .banner .meniu {
     position: absolute;
@@ -507,6 +504,8 @@ table {
     width: 100px;
     height: 94px;
     border-radius: 2px;
+    margin-left: 3px;
+    margin-top: 3px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -528,6 +527,115 @@ table {
   }
   .page-3 .padding-l-r .gallery-text {
     margin-bottom: 7.6%;
+  }
+}
+.page-4 {
+  position: relative;
+}
+.page-4 iframe {
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.page-4 .announcement {
+  position: absolute;
+  top: 0px;
+  color: #FFFFFF;
+  background-color: #ED1C24;
+  opacity: 0.95;
+  padding: 5% 3% 10% 3%;
+}
+.page-4 .announcement .venue {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 8%;
+}
+.page-4 .announcement .pin {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 8%;
+}
+.page-4 .announcement .pin iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.page-4 .announcement .pin img {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+.page-4 .announcement .unite-a {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 8%;
+  border-bottom: 1px solid #FFFFFF;
+  margin-bottom: 8%;
+}
+.page-4 .announcement .need {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 8%;
+}
+.page-4 .announcement .travel-modes div {
+  width: 45.1px;
+  height: 44.1px;
+  border: 1px solid #FFFFFF;
+}
+
+@media screen and (min-width: 1024px) {
+  .page-4 iframe {
+    height: 440px;
+  }
+  .page-4 .page-4-child {
+    display: grid;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+  }
+  .page-4 .page-4-child .announcement-position {
+    display: flex;
+    justify-content: end;
+  }
+  .page-4 .page-4-child .announcement-position .announcement {
+    width: 350px;
+    height: 440px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .page-4 iframe {
+    height: 440px;
+  }
+  .page-4 .page-4-child {
+    padding-left: 10%;
+  }
+  .page-4 .page-4-child .announcement {
+    width: 350px;
+    height: 440px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .page-4 iframe {
+    height: 403px;
+  }
+  .page-4 .page-4-child .announcement-position {
+    display: flex;
+    justify-content: center;
+  }
+  .page-4 .page-4-child .announcement-position .announcement {
+    width: 271px;
+    height: 403px;
   }
 }
 

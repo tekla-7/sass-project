@@ -1,0 +1,25 @@
+@media screen and (max-width:$mobile-width) {
+
+    .page-4 {
+
+        iframe {
+            height: 403px;
+        }
+
+        .page-4-child {
+            .announcement-position {
+                display: flex;
+                justify-content: center;
+
+                .announcement {
+                    width: 271px;
+                    height: 403px;
+                }
+            }
+        }
+
+
+    }
+
+
+}

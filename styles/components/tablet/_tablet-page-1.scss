@@ -5,12 +5,10 @@
 
         .page-1-head {
             padding-left: 10%;
-            display: grid;
-            grid-template-columns: 1fr 10fr;
             .banner {
                 height: 425px;
                 width: 350px;
-                grid-column-start: 1;
+            
                 .meniu {
 
                     position: absolute;

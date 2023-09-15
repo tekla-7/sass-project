@@ -1,0 +1,28 @@
+@media screen and (min-width:$desktop-width) {
+    .page-4 {
+        
+        iframe {
+            height: 440px;
+        }
+
+        .page-4-child {
+            display: grid;
+            display: grid;
+            grid-template-columns: 2fr 3fr;
+
+            .announcement-position {
+                display: flex;
+                justify-content: end;
+
+                .announcement {
+                    width: 350px;
+                    height: 440px;
+                }
+            }
+        }
+
+
+    }
+
+
+}
